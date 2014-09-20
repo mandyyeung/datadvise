@@ -116,10 +116,6 @@
       font-weight:bold;
   }
 
-  .resourceContainer {
-    margin-top: 1%;
-  }
-
   img {
       margin:5px;
   }
@@ -177,4 +173,51 @@
     font-family: fontAwesome;
     content:'\f002  ';
     color: #37BC9B;
+  }
+
+  .item p {
+    padding: 10px;
+  }
+
+/* FLIPPING */
+
+  .resourceContainer {
+    margin-top: 1%;
+    -webkit-perspective:1000;
+    perspective:1000;
+  }
+
+  .item {
+    height: 200px;
+    width: 200px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .item:hover {
+    transform: rotateY( 180deg );
+    -webkit-transform: rotateY(180deg);
+  }
+
+  .item div {
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .front {
+    z-index: 2;
+  }
+
+  .back {
+    -webkit-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+  }
+
+  #idv {
+    background-image: url('http://localhost/datadvise/images/book/idv.png');
   }
