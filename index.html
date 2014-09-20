@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datadvise // Visualizing Data 101</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootflat.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -41,7 +41,7 @@
       <h3>Resources</h3>
       <div class="row">
       <div class="resourceFilter pull-left">
-        <a href="#" data-filter="*" class="current">All Categories</a> /
+        <a href="#" data-filter="*" class="current" id="all-categories">All Categories</a> /
         <a href="#" data-filter=".tutorials">Tutorials</a> /
         <a href="#" data-filter=".books">Books</a> /
         <a href="#" data-filter=".examples">Examples</a> /
@@ -55,37 +55,44 @@
     </div>
     <div id="resourceContainter" class="resourceContainer">
 
-        <div class="articles">
-            <div style="background-color:#ccc; height: 200px; width: 200px"></div>
+        <div class="item articles">
+            <div style="background-color:#ccc; height: 200px; width: 200px">
+              <p>hello</p>
+            </div>
         </div>
 
-        <div class="tutorials books">
-            <div style="background-color:#07b; height: 200px; width: 200px"></div>
+        <div class="item tutorials books">
+            <div style="background-color:#07b; height: 200px; width: 200px">
+              <p>there</p>
+            </div>
         </div>
 
-        <div class="examples">
-            <div style="background-color:#159; height: 200px; width: 200px"></div>
+        <div class="item examples">
+            <div style="background-color:#159; height: 200px; width: 200px">
+              <p>test</p>
+            </div>
         </div>
 
-        <div class="tutorials books">
+        <div class="item tutorials books">
             <div style="background-color:#b01; height: 200px; width: 200px"></div>
         </div>
 
-        <div class="books articles">
+        <div class="item books articles">
             <div style="background-color:#be7; height: 200px; width: 200px"></div>
         </div>
 
-        <div class="tutorials examples articles">
+        <div class="item tutorials examples articles">
             <div style="background-color:#fc4; height: 200px; width: 200px"></div>
         </div>
 
-        <div class="examples articles">
+        <div class="item examples articles">
             <div style="background-color:#9bd; height: 200px; width: 200px"></div>
         </div>
 
-        <div class="examples">
+        <div class="item examples">
             <div style="background-color:#bde; height: 200px; width: 200px"></div>
         </div>
+
       </div>
     </div>
   </div>
@@ -95,8 +102,8 @@
     <div class="pull-right">Submit a Resource</div>
   </div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/isotope.js"></script>
 <script src="js/app.js"></script>
 </body>
