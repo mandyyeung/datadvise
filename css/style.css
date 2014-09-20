@@ -190,6 +190,7 @@
   .item {
     height: 200px;
     width: 200px;
+    text-align: center;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     -webkit-transform-style: preserve-3d;
@@ -218,6 +219,10 @@
     transform: rotateY( 180deg );
   }
 
-  #idv {
-    background-image: url('http://localhost/datadvise/images/book/idv.png');
+  #book-idv {
+    background-image: url('http://localhost/datadvise/images/books/idv.png');
+  }
+
+  #event-dv {
+    background-image: url('http://localhost/datadvise/images/events/dv.png');
   }
