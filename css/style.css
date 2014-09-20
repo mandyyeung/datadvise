@@ -1,0 +1,151 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-top: 0;
+    margin-bottom: 30px;
+		font-family: 'Lato', sans-serif;
+    overflow-x:hidden;
+	}
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    background-color: #f5f5f5;
+  }
+
+  .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .slash {
+    display: none;
+  }
+
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media (min-width: 768px){
+    .navbar {
+      border-radius: 0;
+    }
+    .navbar-default .navbar-text {
+      color: #000;
+    }
+    .slash {
+      display: inline;
+    }
+
+  }
+
+  nav {
+    position: fixed;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 0.4s ease;
+  }
+
+  .sticky-nav {
+    background-color: rgba(230, 230, 230, 0.5);
+  }
+
+  #main-content{
+    margin: 60px 10%;
+
+  }
+
+/* ANIMATIONS */
+
+  @-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+              transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  }
+
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+  }
+
+/* Isotope Filters */
+
+  .resourceFilter a {
+    margin-right: 10px;
+    color:#666;
+    text-decoration:none;
+  }
+
+  .resourceFilter a.current {
+      font-weight:bold;
+  }
+
+  .resourceContainer {
+    margin-top: 1%;
+  }
+
+  img {
+      margin:5px;
+  }
+
+  .isotope-item {
+      z-index: 2;
+  }
+  .isotope-hidden.isotope-item {
+      pointer-events: none;
+      z-index: 1;
+  }
+  .isotope,
+  .isotope .isotope-item {
+    /* change duration value to whatever you like */
+
+      -webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+      transition-duration: 0.8s;
+  }
+  .isotope {
+      -webkit-transition-property: height, width;
+      -moz-transition-property: height, width;
+      transition-property: height, width;
+  }
+  .isotope .isotope-item {
+      -webkit-transition-property: -webkit-transform, opacity;
+      -moz-transition-property: -moz-transform, opacity;
+      transition-property: transform, opacity;
+  }

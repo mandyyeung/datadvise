@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datadvise // Visualizing Data 101</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootflat.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="col-md-12">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Datadvise &nbsp;<i class="fa fa-line-chart"></i></a>
+          <span class="navbar-text slash">Getting Started with Data Visualizations</span>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar" style="height: 1px;">
+        <div class="navbar-right">
+          <p class="navbar-text"><a class="navbar-link disabled" href="tutorials.html">Tutorials </a> (soon!)</p>
+          <p class="navbar-text slash">/</p>
+          <p class="navbar-text"><a class="navbar-link" href="index.html">Resources</a></p>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="main-content">
+    <div class="col-md-12">
+      <h3>Resources</h3>
+      <div class="row">
+      <div class="resourceFilter pull-left">
+        <a href="#" data-filter="*" class="current">All Categories</a> /
+        <a href="#" data-filter=".people">Tutorials</a> /
+        <a href="#" data-filter=".places">Books</a> /
+        <a href="#" data-filter=".food">Examples</a> /
+        <a href="#" data-filter=".chart-types">Chart Types</a> /
+        <a href="#" data-filter=".objects">Articles</a> /
+        <a href="#" data-filter=".events">Events</a>
+      </div>
+      <div class="pull-right">
+        <p><input type="text" id="quicksearch" placeholder="Search" /></p>
+      </div>
+    </div>
+    <div id="resourceContainter" class="resourceContainer">
+
+        <div class="objects">
+            <div style="background-color:#ccc; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="people places">
+            <div style="background-color:#07b; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="food">
+            <div style="background-color:#159; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="people places">
+            <div style="background-color:#b01; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="places objects">
+            <div style="background-color:#be7; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="people food objects">
+            <div style="background-color:#fc4; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="food objects">
+            <div style="background-color:#9bd; height: 200px; width: 200px"></div>
+        </div>
+
+        <div class="food">
+            <div style="background-color:#bde; height: 200px; width: 200px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="pull-left">&copy; 2014 - Mandy Yeung</div>
+    <div class="pull-right">Submit a Resource</div>
+  </div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
