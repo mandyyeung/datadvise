@@ -151,25 +151,25 @@
     padding-left: 5px;
   }
 
-  ::-webkit-input-placeholder::before {
+  #quicksearch::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f002  ';
     color: #37BC9B;
   }
 
-  ::-moz-placeholder::before  {
+  #quicksearch::-moz-placeholder::before  {
     font-family: fontAwesome;
     content:'\f002  ';
     color: #37BC9B;
   } /* firefox 19+ */
 
-  :-ms-input-placeholder::before  {
+  #quicksearch:-ms-input-placeholder::before  {
     font-family: fontAwesome;
     content:'\f002  ';
     color: #37BC9B;
   } /* ie */
 
-  input:-moz-placeholder::before  {
+  #quicksearch input:-moz-placeholder::before  {
     font-family: fontAwesome;
     content:'\f002  ';
     color: #37BC9B;
@@ -225,4 +225,22 @@
 
   #event-dv {
     background-image: url('http://localhost/datadvise/images/events/dv.png');
+  }
+
+/* MODAL */
+
+  .modal-header {
+    background-color:#37BC9B;
+  }
+
+  .modal-title {
+    padding-left: 10px;
+  }
+
+  .modal-body p{
+    padding: 10px;
+  }
+
+  .btn-default {
+    margin-right: 13px;
   }

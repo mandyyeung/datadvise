@@ -95,9 +95,39 @@
 
   <div class="footer">
     <div class="pull-left">&copy; 2014 - Mandy Yeung</div>
-    <div class="pull-right">Submit a Resource</div>
+    <div class="pull-right"><a href="#" data-toggle="modal" data-target="#contact-form">Submit a Resource</a></div>
   </div>
 
+ <div class="modal fade" id="contact-form">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Submit a Resource</h4>
+        </div>
+        <div class="modal-body">
+          <p>If your suggestion does not fit into an existing category, we can make one up!</p>
+          <div class="row">
+            <div class="col-xs-6">
+              <input type="text" class="form-control" name="name" placeholder="Name">
+            </div>
+            <div class="col-xs-6">
+              <input type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="row">
+            <br>
+            <div class="col-xs-12">
+              <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/isotope.js"></script>
