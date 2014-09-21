@@ -1,0 +1,31 @@
+#book-idv {
+  background-image: url('../images/books/idv.png');
+}
+
+#event-dv {
+  background-image: url('../images/events/dv.png');
+}
+
+#example-d3js {
+  background-image: url('../images/examples/d3js.png');
+}
+
+#event-nydvai{
+  background-image: url('../images/events/nydvai.png');
+}
+
+#event-nycod {
+  background-image: url('../images/events/nycod.png');
+}
+
+#book-cookbook {
+  background-image: url('../images/books/cookbook.jpg');
+}
+
+#library-c3js {
+  background-image: url('../images/libraries/c3js.png');
+}
+
+#library-nvd3js {
+  background-image: url('../images/libraries/nvd3js.png');
+}
