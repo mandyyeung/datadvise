@@ -13,6 +13,8 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+  <!--NAVIGATION-->
   <div class="col-md-12">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
@@ -36,69 +38,82 @@
       </div>
     </nav>
   </div>
+
+  <!--RESOURCES-->
   <div id="main-content">
     <div class="col-md-12">
       <h3>Resources</h3>
       <div class="row">
-      <div class="resourceFilter pull-left">
-        <a href="#" data-filter="*" class="current" id="all-categories">All Categories</a> /
-        <a href="#" data-filter=".tutorials">Tutorials</a> /
-        <a href="#" data-filter=".books">Books</a> /
-        <a href="#" data-filter=".examples">Examples</a> /
-        <a href="#" data-filter=".chart-types">Chart Types</a> /
-        <a href="#" data-filter=".articles">Articles</a> /
-        <a href="#" data-filter=".events">Events</a>
+        <div class="col-md-10">
+          <div class="resourceFilter pull-left">
+            <a href="#" data-filter="*" class="current" id="all-categories">All Categories</a> /
+            <a href="#" data-filter=".libraries">Libraries</a> /
+            <a href="#" data-filter=".tutorials">Tutorials</a> /
+            <a href="#" data-filter=".books">Books</a> /
+            <a href="#" data-filter=".examples">Examples</a> /
+            <a href="#" data-filter=".chart-types">Chart Types</a> /
+            <a href="#" data-filter=".articles">Articles</a> /
+            <a href="#" data-filter=".events">Events</a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p><input type="text" id="quicksearch" placeholder="Search" /></p>
+        </div>
       </div>
-      <div class="pull-right">
-        <p><input type="text" id="quicksearch" placeholder="Search" /></p>
-      </div>
-    </div>
     <div id="resourceContainter" class="resourceContainer">
 
-        <div class="item tutorials books">
-          <div class="front" id="book-idv"></div>
-          <div class="back" style="background-color:#ccc;"><h5>Interactive Data Visualization for the Web</h5><p>By Scott Murray</p><p><a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" target="_blank">Read Online</a></p></div>
-        </div>
-
-        <div class="item events">
-          <div class="front" id="event-dv"></div>
-          <div class="back" style="background-color:#07b;"><h5>Meetup: Data Visualization New York</h5><p>New York, NY</p><p><a href="http://www.meetup.com/DataVisualization/" target="_blank">Meetup Page</a></p></div>
-        </div>
-
-        <div class="item examples">
-          <div style="background-color:#159;"><p>test</p></div>
-        </div>
-
-        <div class="item tutorials books">
-          <div style="background-color:#b01;"><p>What</p></div>
-        </div>
-
-        <div class="item books articles">
-          <div style="background-color:#be7;"></div>
-        </div>
-
-        <div class="item tutorials examples articles">
-          <div style="background-color:#fc4;"></div>
-        </div>
-
-        <div class="item examples articles">
-          <div style="background-color:#9bd;"></div>
-        </div>
-
-        <div class="item examples">
-          <div style="background-color:#bde;"></div>
-        </div>
-
+      <div class="item examples libraries">
+        <div class="front" id="example-d3js"></div>
+        <div class="back one"><h5>D3.js Documentation and Examples</h5><p>D3.js starts here!</p><p><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">Official D3.js Website</a></p></div>
       </div>
+
+      <div class="item tutorials books">
+        <div class="front" id="book-idv"></div>
+        <div class="back two"><h5>Interactive Data Visualization for the Web</h5><p>By Scott Murray</p><p><a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" target="_blank">Read Online</a></p></div>
+      </div>
+
+      <div class="item events">
+        <div class="front" id="event-dv"></div>
+        <div class="back three"><h5>Meetup: Data Visualization New York</h5><p>New York, NY</p><p><a href="http://www.meetup.com/DataVisualization/" target="_blank">Meetup Page</a></p></div>
+      </div>
+
+      <div class="item libraries">
+        <div class="front" id="library-c3js"></div>
+        <div class="back four"><h5>C3.js</h5><p>D3-based reusable chart library</p><p><a href="http://c3js.org/" target="_blank">C3.js</a></p></div>
+      </div>
+
+      <div class="item libraries">
+        <div class="front" id="library-nvd3js"></div>
+        <div class="back five"><h5>NVD3.js</h5><p>Re-usable charts for D3.js</p><p><a href="http://nvd3.org/" target="_blank">NVD3.js</a></p></div>
+      </div>
+
+      <div class="item events">
+        <div class="front" id="event-nycod"></div>
+        <div class="back six"><h5>Meetup: NYC Open Data</h5><p>New York, NY</p><p><a href="http://www.meetup.com/NYC-Open-Data/" target="_blank">Meetup Page</a></p></div>
+      </div>
+
+      <div class="item books">
+        <div class="front" id="book-cookbook"></div>
+        <div class="back seven"><h5>Data Visualization with D3.js Cookbook</h5><p>By Nick Qi Zhu</p><p><a href="http://www.amazon.com/Visualization-Cookbook-Community-Experience-Distilled/dp/178216216X" target="_blank">Purchase on Amazon</a></p></div>
+      </div>
+
+      <div class="item events">
+        <div class="front" id="event-nydvai"></div>
+        <div class="back eight"><h5>Meetup: New York Data Visualization and Infographics</h5><p>New York, NY</p><p><a href="http://www.meetup.com/New-York-Datavisualization-and-Infographics/" target="_blank">Meetup Page</a></p></div>
+      </div>
+
     </div>
+   </div>
   </div>
 
+  <!--FOOTER-->
   <div class="footer">
     <div class="pull-left">&copy; 2014 - Mandy Yeung</div>
     <div class="pull-right"><a href="#" data-toggle="modal" data-target="#contact-form">Submit a Resource</a></div>
   </div>
 
- <div class="modal fade" id="contact-form">
+  <!--MODAL-->
+  <div class="modal fade" id="contact-form">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
