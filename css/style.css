@@ -242,6 +242,7 @@
 
   .resourceContainer {
     margin-top: 1%;
+    margin-bottom: 10%;
     -webkit-perspective:1000;
     perspective:1000;
   }
