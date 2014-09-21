@@ -241,6 +241,6 @@
     padding: 10px;
   }
 
-  .btn-default {
-    margin-right: 13px;
+  .modal-footer {
+    padding-bottom: 5%;
   }
