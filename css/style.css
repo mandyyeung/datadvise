@@ -49,7 +49,14 @@
     .slash {
       display: inline;
     }
+    #tags {
+      display: inline;
+    }
 
+  }
+
+  #tags {
+    display: none;
   }
 
   nav {
