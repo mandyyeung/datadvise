@@ -29,3 +29,43 @@
 #library-nvd3js {
   background-image: url('../images/libraries/nvd3js.png');
 }
+
+#article-qunb {
+  background-image: url('../images/articles/qunb.png');
+}
+
+#article-sparklines {
+  background-image: url('../images/articles/sparklines.png');
+}
+
+#library-epochjs {
+  background-image: url('../images/libraries/epochjs.png');
+}
+
+#event-openconf {
+  background-image: url('../images/events/openconf.png');
+}
+
+#library-parallel {
+  background-image: url('../images/libraries/parallel.png');
+}
+
+#library-rcharts {
+  background-image: url('../images/libraries/rcharts.png');
+}
+
+#library-datamaps {
+  background-image: url('../images/libraries/datamaps.png');
+}
+
+#library-cubismjs {
+  background-image: url('../images/libraries/cubismjs.png');
+}
+
+#library-rickshaw {
+  background-image: url('../images/libraries/rickshaw.png');
+}
+
+#library-polychart {
+  background-image: url('../images/libraries/polychart.png');
+}
