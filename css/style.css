@@ -52,11 +52,28 @@
     #tags {
       display: inline;
     }
+
+    .resourceFilter a {
+      margin-right: 10px;
+      color:#666;
+      text-decoration:none;
+    }
+
+    .resourceFilter a.current {
+        font-weight:bold;
+    }
+
   }
 
   #tags {
     display: hidden;
   }
+
+  .resourceFilter {
+    display: none;
+  }
+
+
 
   nav {
     position: fixed;
@@ -111,16 +128,6 @@
   }
 
 /* Isotope Filters */
-
-  .resourceFilter a {
-    margin-right: 10px;
-    color:#666;
-    text-decoration:none;
-  }
-
-  .resourceFilter a.current {
-      font-weight:bold;
-  }
 
   img {
       margin:5px;
